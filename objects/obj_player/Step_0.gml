@@ -15,7 +15,12 @@ y += vspd;
 #endregion
 
 #region Gun Control
-// dir_gun = point_direction(x, y, mouse_x, mouse_y);
+if(global.click){
+	var gunshot = instance_create_depth(gun.xx, gun.yy, depth - 1, obj_hazard);
+	gunshot.type = GUNSHOT;
+	gunshot.x2 = mouse_x;
+	gunshot.y2 = mouse_y;
+}
 #endregion
 
 #region Sprite Control

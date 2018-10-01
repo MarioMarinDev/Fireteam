@@ -8,8 +8,8 @@ if(instance_exists(owner)){
 dir = point_direction(x, y, mouse_x, mouse_y);
 image_angle = dir;
 
-xx = bbox_right;
-yy = bbox_top + ((bbox_bottom - bbox_top) / 2);
+xx = x + lengthdir_x(x_add, dir);
+yy = y + lengthdir_y(x_add, dir) + y_add;
 
 if dir > 90 && dir <= 270 image_yscale = abs(image_yscale) * -1;
 else image_yscale = abs(image_yscale);

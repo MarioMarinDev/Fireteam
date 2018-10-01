@@ -8,3 +8,6 @@ height = sprite_get_height(sprite_index) * image_yscale;
 
 xx = bbox_left;
 yy = bbox_top + (width / 2);
+
+x_add = 27;
+y_add = -5;

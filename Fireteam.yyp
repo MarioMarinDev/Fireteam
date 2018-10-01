@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "459a1e1e-1ec5-4817-93c4-d93b320332fa",
+            "Value": {
+                "id": "c215865d-57e9-428c-b912-29f6ae4beeb5",
+                "resourcePath": "scripts\\macros\\macros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "57556f5f-1457-49f6-bddf-feade5976cfd",
             "Value": {
                 "id": "f68b55d4-2474-4249-9580-cb97aa221d80",
@@ -304,6 +312,7 @@
         }
     ],
     "script_order": [
+        "459a1e1e-1ec5-4817-93c4-d93b320332fa",
         "d4db6caa-d1a1-41ee-ba20-a930695c7605",
         "8d2eea78-73e9-4819-87f6-35b8b31eaa38"
     ],
